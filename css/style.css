@@ -1,0 +1,279 @@
+@font-face {
+    font-family: 'Proxima Nova';
+    src: url('../fonts/ProximaNova-Black.woff2') format('woff2'),
+        url('../fonts/ProximaNova-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Proxima Nova';
+    src: url('../fonts/ProximaNova-Bold.woff2') format('woff2'),
+        url('../fonts/ProximaNova-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Proxima Nova';
+    src: url('../fonts/ProximaNova-Extrabld.woff2') format('woff2'),
+        url('../fonts/ProximaNova-Extrabld.woff') format('woff');
+    font-weight: 800;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Proxima Nova';
+    src: url('../fonts/ProximaNovaA-Thin.woff2') format('woff2'),
+        url('../fonts/ProximaNovaA-Thin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Proxima Nova';
+    src: url('../fonts/ProximaNova-Regular.woff2') format('woff2'),
+        url('../fonts/ProximaNova-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Proxima Nova';
+    src: url('../fonts/ProximaNovaT-Thin.woff2') format('woff2'),
+        url('../fonts/ProximaNovaT-Thin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Proxima Nova';
+    src: url('../fonts/ProximaNovaA-Light.woff2') format('woff2'),
+        url('../fonts/ProximaNovaA-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Proxima Nova';
+    src: url('../fonts/ProximaNovaA-Bold.woff2') format('woff2'),
+        url('../fonts/ProximaNovaA-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+* {
+  box-sizing: border-box;
+  font-family: 'Proxima Nova', sans-serif;
+}
+
+body {
+  margin: 0px;
+}
+
+.nav-wrapper .brand-logo img {
+    height: 64px;
+    padding: 15px;
+}
+nav .nav-wrapper {
+    padding: 0 5px;
+}
+
+nav ul a {
+    transition: 0.3s;
+}
+
+nav ul a:hover {
+    background-color: white;
+    text-shadow: 2px 2px 3px rgba(150, 150, 150, 0.38);
+    color: #00356B !important;
+}
+
+h2.header-home {
+    color: white;
+    text-align: center;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 90%;
+    font-family: 'Playfair Display', serif;
+    font-weight: 500;
+}
+
+
+h2.header-team {
+    font-family: 'Playfair Display', serif;
+    font-weight: 500;
+    text-align: center;
+    color: #00356B;
+    margin: 30px 0;
+}
+
+.container.home h4 {
+    font-family: 'Playfair Display', serif;
+    color: #00356B;
+    font-size: 23px;
+    font-weight: 500;
+}
+
+.container.home p {
+    font-weight: 300;
+    font-size: 15px;
+}
+
+.container.home img {
+    display: block;
+    margin: 20px auto 0;
+    width: 100px;
+}
+
+.nav-wrapper i {
+    color: black;
+}
+
+.container.team img {
+    width: 80%;
+    max-width: 350px;
+    display: block;
+    margin: auto;
+}
+
+.container.team p {
+    font-size: 18px;
+    text-align: center;
+    color: #727272;
+}
+
+.container.team p.title {
+    margin-top: -20px;
+    font-weight: 200;
+    color: #003d8a;
+}
+
+.container.team svg {
+    text-align: center;
+    margin: -10px auto 0;
+    display: block;
+}
+
+.container.analysts img {
+    width: 40%;
+    margin: 10px auto 0;
+    display: block;
+    max-width: 100px;
+}
+
+.container.analysts em {
+    font-weight: 300;
+    font-size: 16px;
+}
+
+.container.analysts p {
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: -15px;
+}
+
+.container.analysts .btn {
+    margin: 20px auto;
+    display: block;
+    width: 250px;
+}
+.whywork li {
+    list-style-type: circle !important;
+    margin: 10px;
+    font-size: 16px;
+}
+
+.skills li {
+    font-size: 16px;
+    position: relative;
+    font-weight: 300;
+    padding-bottom: 7px;
+    margin-top: -4px;
+}
+
+
+.skills li:after {
+    content: "";
+    float:left;
+    background: #d6d6d6;
+    width:100%;
+    height: 3px;
+    border-radius: 3px;
+    margin-top: 4px;
+}
+
+.skills li:nth-child(3):after {
+    display: none;
+}
+
+.skills img {
+    width: 50%;
+    max-width: 200px;
+}
+
+.skills p {
+    margin: 5px;
+}
+
+.skills .left {
+    width: 47%;
+}
+
+.skills .right {
+    width: 50%;
+}
+
+h5 {
+    font-family: 'Playfair Display', serif;
+}
+
+.firmcontact input.waves-button-input {
+    color: white;
+}
+
+ /* label focus color */
+.input-field input:focus + label, .input-field textarea:focus + label {
+     color:  #00356B !important;
+}
+/* label underline focus color */
+.input-field input:focus, .input-field textarea:focus {
+    border-bottom: 1px solid  #00356B !important;
+    box-shadow: 0 1px 0 0  #00356B !important;
+}
+
+.contact.parallax-container {
+    height: 200px;
+}
+
+  body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+
+  main {
+    flex: 1 0 auto;
+  }
+
+  .home-btn {
+    margin: 10px auto;
+    display: block;
+    width: 230px;
+}
+
+.analysts .col {
+    margin-bottom: 20px;
+}
