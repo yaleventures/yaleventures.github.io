@@ -58,7 +58,7 @@ h1, h2, h3, h4, h5, h6 {
 
 ::selection {
   color: #424242;
-  background: #001478;
+  background: #fff2b8;
 }
 
 #fh5co-header {
@@ -791,7 +791,8 @@ img {
 }
 #fh5co-team .team-box {
   position: relative;
-  padding: 30px;
+  padding-right: 30px;
+  padding-left: 30px;
   padding-top: 2em;
   /*background: #424242;
   background: #18181c;*/
@@ -1001,6 +1002,16 @@ img {
   color: #001478;
   color: #555863;
 }
+
+#fh5co-footer .contact-info li img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: 20px;
+  color: #001478;
+  color: #555863;
+}
+
 #fh5co-footer .social-media {
   margin: 0 0 30px 0;
   padding: 0;
