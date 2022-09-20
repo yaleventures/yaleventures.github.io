@@ -4,62 +4,91 @@
 <head>
   <meta charset="utf-8">
   <title>Yale Undergraduate Venture Group</title>
-  <meta name="description" content= "Yale's premier group for all things venture capital." />
-  <meta name="robots" content= "index, follow">
+  <meta name="description" content="Yale's premier group for all things venture capital." />
+  <meta name="robots" content="index, follow">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" type="image/png" href="images/favicon.png" />
   <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700;800;900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700;800;900&display=swap"
+    rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;900&display=swap" rel="stylesheet">
   <link href="css/normalize.css" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
   <link href="css/style.css" rel="stylesheet">
 </head>
 
 
 <body>
-    <nav class="animate__animated animate__fadeIn">
-      <div class="nav-wrapper white">
-        <a href="/" class="brand-logo"><img src = "images/yuvglogo.png"></a>
-        <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
-        <ul class="right hide-on-med-and-down">
-          <!--<li><a href="https://forms.gle/Bed7nqKCwZaHEjFdA" class="black-text"><b>Apply Now</b></a></li>-->
-          <li><a href="analysts" class="black-text">Prospective Analysts</a></li>
-          <li><a href="partners" class="black-text">Prospective Partners</a></li>
-          <li><a href="contact" class="black-text">Contact Us</a></li>
-        </ul>
-      </div>
-    </nav>
-
-    <ul class="sidenav" id="mobile-demo">
-      <!--<li><a href="https://forms.gle/Bed7nqKCwZaHEjFdA" class="black-text"><b>Apply Now</b></a></li>-->
-      <li><a href="analysts">Prospective Analysts</a></li>
-      <li><a href="partners">Prospective Partners</a></li>
-      <li><a href="contact">Contact Us</a></li>
-    </ul>
-
-
-  <div class="parallax-container animate__animated animate__fadeIn">
-      <h2 class="header-home">Yale Undergraduate Venture Group</h2>
-      <div class="parallax"><img src="images/home_hero.jpg"></div>
+  <nav class="animate__animated animate__fadeIn" id="nav">
+    <div class="nav-wrapper white">
+      <a href="/" class="brand-logo"><img src="images/yuvglogo.png"></a>
+      <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+      <ul class="right hide-on-med-and-down">
+        <!--<li><a href="https://forms.gle/Bed7nqKCwZaHEjFdA" class="black-text"><b>Apply Now</b></a></li>-->
+        <li><a href="analysts" class="black-text">Prospective Analysts</a></li>
+        <li><a href="partners" class="black-text">Prospective Partners</a></li>
+        <li><a href="contact" class="black-text">Contact Us</a></li>
+      </ul>
     </div>
+  </nav>
 
-    <br>
+  <ul class="sidenav" id="mobile-demo">
+    <!--<li><a href="https://forms.gle/Bed7nqKCwZaHEjFdA" class="black-text"><b>Apply Now</b></a></li>-->
+    <li><a href="analysts">Prospective Analysts</a></li>
+    <li><a href="partners">Prospective Partners</a></li>
+    <li><a href="contact">Contact Us</a></li>
+  </ul>
+
+  <div id="popup" style="width: 60vw; height: 100vh; justify-content: center;">
+    <h2 class="header-home" style="color:black; margin-bottom: 80px; font-size: large;">As of July 2022, the Yale
+      Undergraduate Venture Group has merged with
+      the Yale
+      Entrepreneurial Society to create the VC Opportunities branch. Resources for students and clients can be found on
+      the page linked below, or by going to yesatyale.org.
+      <a href="https://www.yesatyale.org/vc-opportunities-1"
+        class="waves-effect waves-light home-btn btn blue darken-4 center-align">Let's Go!</a>
+      <a id="OGsite" href="#nav">Take me to the original site...</a>
+  </div>
+  <script type="text/javascript">
+    document.getElementById("OGsite").onclick = function () {
+
+      document.getElementById("popup").style.display = "none";
+
+    }
+
+  </script>
+
+
+  </div>
+  <div class="parallax-container animate__animated animate__fadeIn">
+
+    <h2 class="header-home">Yale Undergraduate Venture Group</h2>
+    <div class="parallax"><img src="images/home_hero.jpg"></div>
+  </div>
+
+  <br>
 
   <div class="container home animate__animated animate__fadeInUp">
     <div class="row">
       <div class="col l6 s12">
-        <img src = "images/handshake.png">
+        <img src="images/handshake.png">
         <h4 class="center-align">We work with VCs as Teammates.</h4>
-        <a href="partners" class="waves-effect waves-light home-btn btn blue darken-4 center-align">Prospective Partners</a>
-        <p>Our team is excited to work alongside VC’s in all industries and provide our services, including in-depth due-diligence and sourcing based on the needs of our partners. Our team is composed of seasoned investors who are able to independently identify, build, and validate investment hypotheses in industries ranging from hard tech, to healthcare, to construction.</p>
+        <a href="partners" class="waves-effect waves-light home-btn btn blue darken-4 center-align">Prospective
+          Partners</a>
+        <p>Our team is excited to work alongside VC’s in all industries and provide our services, including in-depth
+          due-diligence and sourcing based on the needs of our partners. Our team is composed of seasoned investors who
+          are able to independently identify, build, and validate investment hypotheses in industries ranging from hard
+          tech, to healthcare, to construction.</p>
       </div>
       <div class="col l6 s12">
-        <img src = "images/yale_startup.png">
+        <img src="images/yale_startup.png">
         <h4 class="center-align">We connect our Partners to Yale-founded Startups.</h4>
         <a href="team" class="waves-effect waves-light home-btn btn blue darken-4 center-align">Our Team</a>
-        <p>Yale's entrepreneurial ecosystem is growing rapidly every year. However, existing institutions at Yale are not sufficient for connecting student-founded startups with investors. We are filling this gap at Yale by being the hub for investors at Yale. Our team works with our VC partners to help secure funding for Yale-based startups.</p>
+        <p>Yale's entrepreneurial ecosystem is growing rapidly every year. However, existing institutions at Yale are
+          not sufficient for connecting student-founded startups with investors. We are filling this gap at Yale by
+          being the hub for investors at Yale. Our team works with our VC partners to help secure funding for Yale-based
+          startups.</p>
       </div>
     </div>
 
@@ -70,18 +99,23 @@
   <footer class="page-footer blue darken-4 animate__animated animate__fadeIn">
     <div class="footer-copyright">
       <div class="container">
-      © 2021 Copyright Yale Undergraduate Venture Group<br><br>
-      <em>“Yale” and “Yale University” are registered trademarks of Yale University.  This website is a student run website and is maintained, hosted, and operated independently of Yale University.  The activities on this website are not supervised or endorsed by Yale and information contained on this website does not necessarily reflect the opinions or official positions of the University.</em><br>
-      <br>Made with <span  style="font-size: 15px; top: 3px; position: relative;" class="material-icons"> favorite_border </span> by YUVG Team.
+        © 2021 Copyright Yale Undergraduate Venture Group<br><br>
+        <em>“Yale” and “Yale University” are registered trademarks of Yale University. This website is a student run
+          website and is maintained, hosted, and operated independently of Yale University. The activities on this
+          website are not supervised or endorsed by Yale and information contained on this website does not necessarily
+          reflect the opinions or official positions of the University.</em><br>
+        <br>Made with <span style="font-size: 15px; top: 3px; position: relative;" class="material-icons">
+          favorite_border </span> by YUVG Team.
       </div>
 
     </div>
 
-  <div class="footer-copyright">
+    <div class="footer-copyright">
       <div class="container">
-      <h6>The Yale Undergraduate Venture Group has merged with Yale Entrepreneurial Society (<a href="https://www.yesatyale.org">yesatyale.org</a>).</h6>
+        <h6>The Yale Undergraduate Venture Group has merged with Yale Entrepreneurial Society (<a
+            href="https://www.yesatyale.org">yesatyale.org</a>).</h6>
       </div>
-  </div>
+    </div>
   </footer>
 
   <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
